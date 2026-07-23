@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite both this repository and the associated paper."
+title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent Verification for Automated SEC Filing Analysis — Data and Code"
+type: dataset
+authors:
+  - family-names: "Muştu"
+    given-names: "Sinan"
+    affiliation: "Boğaziçi University, Institute for Data Science and Artificial Intelligence"
+    orcid: "https://orcid.org/0009-0001-3051-4067"
+  - family-names: "Altun"
+    given-names: "Hüseyin Oktay"
+    affiliation: "Boğaziçi University, Institute for Data Science and Artificial Intelligence"
+    orcid: "https://orcid.org/0000-0002-8875-6878"
+license: "MIT AND CC-BY-4.0"
+repository-code: "https://github.com/REPLACE-WITH-YOUR-USERNAME/financebench-dual-process-rag"
+doi: 10.5281/zenodo.XXXXXXX
+version: "1.0.0"
+date-released: "2026-07-23"
+keywords:
+  - retrieval-augmented generation
+  - large language models
+  - multi-agent systems
+  - financial document analysis
+  - FinanceBench
+  - dual-process theory
+preferred-citation:
+  type: article
+  title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent Verification for Automated SEC Filing Analysis"
+  authors:
+    - family-names: "Muştu"
+      given-names: "Sinan"
+    - family-names: "Altun"
+      given-names: "Hüseyin Oktay"
+  journal: "Information Systems Frontiers"
+  year: 2026
+  status: "submitted"
