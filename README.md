@@ -3,8 +3,8 @@
 Supporting data, prompts, and evaluation outputs for:
 
 > Muştu, S., & Altun, H. O. (2026). *Thinking Fast and Slow in Finance: A
-> Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent
-> Verification for Automated SEC Filing Analysis.* Submitted to
+> Dual-Process Retrieval-Augmented Generation Architecture for
+> Automated Financial Document Auditing
 > *Information Systems Frontiers*.
 
 This work is derived from the first author's Master's thesis at the
