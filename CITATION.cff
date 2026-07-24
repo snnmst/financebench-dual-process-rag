@@ -25,7 +25,7 @@ keywords:
   - dual-process theory
 preferred-citation:
   type: article
-  title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent Verification for Automated SEC Filing Analysis"
+  title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture for Automated Financial Document Auditing — Data and Code"
   authors:
     - family-names: "Muştu"
       given-names: "Sinan"
