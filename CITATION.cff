@@ -10,10 +10,8 @@ authors:
   - family-names: "Altun"
     given-names: "Hüseyin Oktay"
     affiliation: "Boğaziçi University, Institute for Data Science and Artificial Intelligence"
-    orcid: "https://orcid.org/0000-0002-8875-6878" 
-license:
-  - MIT
-  - CC-BY-4.0
+    orcid: "https://orcid.org/0000-0002-8875-6878"
+license: "MIT"
 repository-code: "https://github.com/snnmst/financebench-dual-process-rag"
 version: "1.0.1"
 date-released: "2026-07-24"
@@ -34,4 +32,3 @@ preferred-citation:
       given-names: "Hüseyin Oktay"
   journal: "Information Systems Frontiers"
   year: 2026
-  status: "submitted"
