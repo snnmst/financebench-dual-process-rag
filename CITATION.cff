@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this data or code, please cite both this repository and the associated paper."
-title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent Verification for Automated SEC Filing Analysis — Data and Code"
+title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture for Automated Financial Document Auditing"
 type: dataset
 authors:
   - family-names: "Muştu"
@@ -26,7 +26,7 @@ keywords:
   - dual-process theory
 preferred-citation:
   type: article
-  title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent Verification for Automated SEC Filing Analysis"
+  title: "Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture for Automated Financial Document Auditing"
   authors:
     - family-names: "Muştu"
       given-names: "Sinan"
