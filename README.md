@@ -14,19 +14,29 @@ Boğaziçi University Institute for Data Science and Artificial Intelligence.
 
 | Path | Description |
 |---|---|
-| `data/financebench_103_questions.csv` | The 103-question FinanceBench evaluation subset (document, query, ground truth) |
+| `data/financebench_103_questions.xlsx` | The 103-question FinanceBench evaluation subset (document, query, ground truth) |
 | `data/system1_standalone_outputs.csv` | Per-query System-1 verdicts, tokens, and latency (standalone ablation, Table 1 left column) |
-| `data/full_pipeline_outputs.csv` | Per-query final verdicts for the deployed cascade (Table 1 right column), including which evaluation phase (1 or 2) produced the final answer |
-| `data/error_taxonomy_annotations.csv` | Category label and rationale for each of the 24 non-exact outputs (Table 2) |
-| `data/baseline_measurements/` | Raw per-query token/latency logs for the three dedicated baseline runs (Table 3, Section 4.3) |
+| `data/full_pipeline_outputs.xlsx` | Per-query final verdicts for the deployed cascade, all 103 questions (Table 1 right column) |
+| `data/full_pipeline_outputs_nones.xlsx` | The subset of escalated queries that returned a transient provider (API) error on the first pass, before resubmission (Section 3.4, "Phase 1" unresolved cases) |
+| `data/error_taxonomy_full.csv` | Category label and rationale for all 103 questions (error category populated for the non-exact outputs only; Table 2) |
+| `data/baseline_measurements/` | Raw per-query token/latency logs for the dedicated System-1-only and System-2-only baseline runs (Table 3/4, Section 4.3) — *(confirm this folder is included; see note below)* |
+| `json_files.zip` | Raw MinerU document-parsing output (JSON, one file per source filing), required to reproduce the retrieval/extraction pipeline |
+| `code/` | Pipeline / orchestration code |
 | `prompts/` | Verbatim system prompts for System-1 and the three System-2 agents (Extractor, Auditor, Judger) |
+
+> **Note:** `full_pipeline_outputs_nones.xlsx` currently lists 24 affected
+> questions; Section 3.4 of the paper states 23. Please reconcile this
+> before creating the release — whichever number is correct should match
+> exactly between the paper and this file.
 
 ## Relationship to the published tables
 
-- **Table 1** (accuracy distribution) is computed from `system1_standalone_outputs.csv` and `full_pipeline_outputs.csv`.
-- **Table 2** (error taxonomy) is computed from `error_taxonomy_annotations.csv`.
-- **Table 3 / Table 4** (cost analysis) are computed from the files in `data/baseline_measurements/` plus the aggregate columns in `full_pipeline_outputs.csv`.
+- **Table 1** (accuracy distribution) is computed from `system1_standalone_outputs.csv` and `full_pipeline_outputs.xlsx`.
+- **Table 2** (error taxonomy) is computed from `error_taxonomy_full.csv`.
+- **Table 3 / Table 4** (cost analysis) are computed from the files in `data/baseline_measurements/` plus the aggregate columns in `full_pipeline_outputs.xlsx`.
+- **Section 3.4** (two-phase evaluation protocol) corresponds to `full_pipeline_outputs_nones.xlsx` (the queries resubmitted in Phase 2).
 - **Appendix A** of the thesis corresponds to `prompts/`.
+- `json_files.zip` is a preprocessing input (MinerU output), not an evaluation output — it is provided for end-to-end reproducibility of the retrieval pipeline itself.
 
 ## Data source
 
