@@ -24,10 +24,6 @@ Boğaziçi University Institute for Data Science and Artificial Intelligence.
 | `code/` | Pipeline / orchestration code |
 | `prompts/` | Verbatim system prompts for System-1 and the three System-2 agents (Extractor, Auditor, Judger) |
 
-> **Note:** `full_pipeline_outputs_nones.xlsx` currently lists 24 affected
-> questions; Section 3.4 of the paper states 23. Please reconcile this
-> before creating the release — whichever number is correct should match
-> exactly between the paper and this file.
 
 ## Relationship to the published tables
 
