@@ -65,9 +65,7 @@ measurements) produced by the authors.
 See `CITATION.cff`, or cite as:
 
 ```
-Muştu, S., & Altun, H. O. (2026). Thinking Fast and Slow in Finance: A
-Dual-Process Retrieval-Augmented Generation Architecture with Multi-Agent
-Verification for Automated SEC Filing Analysis [Data set and code].
+Muştu, S., & Altun, H. O. (2026). Thinking Fast and Slow in Finance: A Dual-Process Retrieval-Augmented Generation Architecture for Automated Financial Document Auditing [Data set and code].
 Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 ```
 
