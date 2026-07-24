@@ -12,7 +12,7 @@ authors:
     affiliation: "Boğaziçi University, Institute for Data Science and Artificial Intelligence"
     orcid: "https://orcid.org/0000-0002-8875-6878"
 license: "MIT AND CC-BY-4.0"
-repository-code: "https://github.com/REPLACE-WITH-YOUR-USERNAME/financebench-dual-process-rag"
+repository-code: "https://github.com/snnmst/financebench-dual-process-rag"
 doi: 10.5281/zenodo.XXXXXXX
 version: "1.0.0"
 date-released: "2026-07-23"
